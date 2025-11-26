@@ -1017,8 +1017,8 @@ textarea{
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
-.flex{
-	gap: 60px;
+.flex, .tab-content{
+	gap: 20px;
 }
 .box-section{
 	gap: 17px;
@@ -1029,8 +1029,14 @@ textarea{
 .like p, .therd p, .box-section, .four p, .display, .mack p, .flex-sec, .read p, .flex-input {
 	margin-top: 45px;
 }
- .message-input a{
-	margin-top: 30px;
+ .message-input a, .span{
+	margin-top: 20px;
+}
+.contact p{
+	margin-top: 10px;
+}
+.span p{
+	margin-top: 0;
 }
 .like:before{
 	top: 44px;
@@ -1074,10 +1080,9 @@ textarea{
 }
 
 @media (max-width: 979px){
-.span {
-    margin-top: 50px;
-}
-.span a{ margin-top: 35px; }
+
+.span a{
+ margin-top: 20px; }
 .conten span{
 	margin-top: 15px;
 }
@@ -1317,11 +1322,9 @@ textarea, .input-sec input[type="text"], input[type="email"] {
     max-width: 100%;
 }
 .span{
-	margin-top: 25px;
 	max-width: none;
 }
 .contact p{
-	margin-top: 45px;
 	max-width: none;
 }
 .span p{
