@@ -58,3 +58,17 @@ $('.flat-section .owl-carousel').owlCarousel({
         }
     }
 })
+
+
+
+// Vanilla JS version: https://codepen.io/megganeturner/pen/GRyqvvg
+            $('nav ul li a[href^="#"]').on('click',function (e) {
+  var target = this.hash,
+      $target = $(target);
+
+  $('html, body').stop().animate({
+    'scrollTop': $target.offset().top-50
+  }, 900, 'swing', function () {
+    window.location.hash = target;
+  });
+});
